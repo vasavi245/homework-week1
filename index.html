@@ -1,15 +1,30 @@
 <!DOCTYPE html>
+
+<!-- Refactored code with semantic html elements-->
+
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8" />
+
+    <!-- link reference to css stylesheet -->
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
 
 <body>
+
+    <!-- Header class is used in div to define heading section -->
+
     <div class="header">
+
+        <!-- seo id is used to style "seo" text in heading -->
+
         <h1>Hori<span id="seo">seo</span>n</h1>
+
+        <!-- id lists is used to style lists in the section-->
+
         <section id="lists">
             <ul>
                 <li>
@@ -24,46 +39,98 @@
             </ul>
         </section>
     </div>
+    
+    <!-- Background Image moved from css an id bacground-image is given to style and display image -->
+    
     <img id="background-image" src="assets/Images/digital-marketing-meeting.jpg" alt="background image" />
+    
+    <!-- servics class is used in div to style all the services -->
+    
     <div class="services">
-        <article class="search-engine-optimization">
+
+        <!-- search-engine-optimazation class is used in article tag -->
+           <article class="search-engine-optimization">
+
+           <!--class services-heading is used to define headings of services -->
+
             <h2 class="services-heading">Search Engine Optimization</h2>
+
+            <!--alt attribute is placed in img tag-->
+            <!--id is given for the image to specify style in css to this image-->
+           
             <img id="seo_image" src="assets/Images/search-engine-optimization.jpg" alt="search-engine-optimization" />
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
         <article class="online-reputation-management">
+           
+            <!--class services-heading is used to style headings of services-->
+            
             <h2 class="services-heading">Online Reputation Management</h2>
+            
+            <!--alt attribute is placed in img tag-->
+            
             <img id="orm_image" src="assets/Images/online-reputation-management.jpg" alt="online-reputation-management" />
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
+        
+        <!--class social-media-marketing is used in article -->
+        
         <article class="social-media-marketing">
+
+            <!--class services-heading is used to define headings of services -->
+
             <h2 class="services-heading">Social Media Marketing</h2>
+
+            <!--alt attribute is placed in img tag-->
+            <!--id is given for the image to specify style in css to this image-->
+           
             <img id="smm_image" src="assets/Images/social-media-marketing.jpg" alt="social-media-marketing" />
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </article>
     </div>
+     
+    <!--benefits class is given in aside tag-->
+    
     <aside class="benefits">
+        
+         <!--benefit-lead class is used in div tag-->
+        
         <div class="benefit-lead">
+            
+            <!--benefits-heading class is used to for headings in benefits-->
+           
             <h3 class="benefits-heading">Lead Generation</h3>
             <img src="assets/Images/lead-generation.png" alt="benefit-lead" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
+        
         <div class="benefit-brand">
+            <!--benefit-lead class is used in div tag-->
+            
             <h3 class="benefits-heading">Brand Awareness</h3>
+            
+            <!--benefit-lead class is used in div tag-->
+            
             <img src="assets/Images/brand-awareness.png" alt="benefit-brand" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
+        
+        <!--benefit-lead class is used in div tag-->
+        
         <div class="benefit-cost">
+
+            <!--benefit-lead class is used in div tag-->
+            
             <h3 class="benefits-heading">Cost Management</h3>
             <img src="assets/Images/cost-management.png" alt="cost-management" />
             <p>
@@ -71,6 +138,8 @@
             </p>
         </div>
     </aside>
+    <!-- class footer is used in div to define footer-->
+    
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
